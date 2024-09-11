@@ -16,7 +16,10 @@
       "ES5",
       "ES6",
       "ES7"
-    ]
+    ],
+    "removeComments": false,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["marked","node", "sharp"]
   },
   "include": [
     "**/*.ts"
